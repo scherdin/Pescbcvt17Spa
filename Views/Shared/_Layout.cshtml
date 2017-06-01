@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - WebApplicationBasic</title>
+        <base href="/" />
+        <!--<link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />-->
+		 <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="~/dist/agency/vendor/bootstrap/css/bootstrap.min.css" asp-append-version="true" />
+
+		<!-- Custom Fonts -->
+	    <link href="~/dist/agency/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+	    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	    <!-- Theme CSS -->
+	    <link href="~/dist/agency/css/agency.min.css" rel="stylesheet">
+
+
+	</head>
+    <body>
+        @RenderBody()
+
+        @RenderSection("scripts", required: false)
+    </body>
+</html>
